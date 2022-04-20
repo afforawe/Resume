@@ -1,0 +1,210 @@
+/* Шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Фон */
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 15x;
+    background-color:#ddd
+}
+
+h1 {
+    padding: 0;
+    margin-bottom: 2em;
+    max-height: 20px;
+}
+ /* Аватар */
+.avatar {
+    width: 200px;
+    border-radius: 30%;
+    box-shadow: 5px 5px 16px rgba(0, 0, 0, 25);
+    display: block;
+}
+
+.osnova {
+    width: 32em;
+}
+
+.osnova .osnova2 {
+    min-height: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Описание */
+.card_0{
+    font-style: italic;
+    color: DimGrey;
+    margin: auto;
+    padding: 0;
+}
+
+.card_0 p {
+    padding: 3px;
+    margin: 0;
+    display: block;
+    width: 18em;
+}
+/* Хобби */
+.card_1 {
+    border: 2px;
+    border-radius: 6px;
+    background: #ebfde9;
+    padding: 2px;
+    margin: 5px;
+    margin-left: 2px;
+}
+
+.card_1 h2 {
+    margin: 11px;
+    padding: 9px;
+}
+
+.card_1 li {
+    margin-bottom: 5px;
+}
+/* Описание2 фон */
+.card_2 {
+    border-radius: 4px;
+    background-color: #fbe6e4;
+    padding: 8px;
+    margin: 5px;
+}
+/* Работа со стилистикой описания2 */
+.table {
+    opacity: 0.6;
+    text-align: center;
+    width: 100%;
+}
+
+.table th {
+    padding-bottom: 10px;
+}
+
+.table tr:nth-child(even) {
+    background:snow;
+    
+}
+/* Ссылки и стилизация */
+.social_nav {
+    border-radius: 4px;
+    width: 53em;
+    margin: 3px;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    border: none;
+}
+
+a:hover {
+    color: Silver;
+    font-size: 17px;
+
+}
+
+a:active {
+color: blue;
+}
+
+#activatelink0 {
+    background-color:#0077ff;
+    padding: 10px;
+    margin: 3px;
+    border-radius:10px
+}
+
+#activatelink1 {
+    background-color: #171a21;
+    padding: 10px;
+    border-radius:10px
+}
+/* Стилизация кнопки */
+.btn {
+    background: black;
+    padding: 5px;
+    margin: 5px;
+    color:white;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: red;
+    opacity: 0.8;
+}
+/* Боковая панель */
+
+.navbar {
+    background: SteelBlue;
+    width: 70px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    position:fixed;
+    padding:0;
+    font-size: 14px;
+    margin: 0;
+    z-index: 2;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 0px;
+    padding: 10px;
+    margin-bottom: 3em;
+    font-size: 15px;
+}
+
+.navbar ul li:hover {
+    background: #008080;
+}
+
+.message h3 {
+    text-align: center;
+}
+
+.form-row {
+    display: block;
+}
+
+.form-row, .form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.form label {
+    display: block;
+    color:LightSalmon;
+    font-size: 13px;
+}
+
+.form input, .form textarea {
+    background:transparent;
+    width: 100%;
+    font-size: 14px;
+    box-sizing:border-box;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    outline:#0077ff;
+    margin-bottom: 4px;
+}
+
+
+
+

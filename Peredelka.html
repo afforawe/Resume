@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Резюме, начало, мои начинания">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            width: 45em;
+            padding:0;
+            margin: auto;
+        }
+
+        @media (max-width: 650px) {
+            .avatar {
+                width: 150px;;
+            }
+            .osnova {
+                width: 25em;
+            }
+            .container {
+                margin-left: 14em;
+                width: 20em;
+            }
+            .card_1 {
+                width: 15em;
+            }
+            .card_2 {
+                width: 15em;
+            }
+            .message {
+                width: 15em;
+            }
+            .social_nav {
+                width: 15em;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Боковое меню -->
+<div class="navbar">
+    <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+        <li><a href="#">Item 4</a></li>
+        <li><a href="#">Item 5</a></li>
+    </ul>
+</div>
+<!-- Аватарка -->
+<div class="container">
+    <div class="osnova">
+        <div class="osnova2">
+            <img src="rat.jpg" alt="Крыска" class="avatar">
+        </div>
+        <div class="osnova2">
+            <h1>Владислав Дём</h1>
+            <div class="card_0">
+                <p>Я начинаю обучение <strong>HTML</strong></p>
+                <p><i>"Свобода ничего не стоит, если она не включает в себя свободу ошибаться."</i></p>
+            </div>
+        </div>
+    </div>
+        
+        <!-- Ссылки -->
+        <ul class="social_nav">
+        <li>   
+            <a id="activatelink0" href="https://vk.com/lerroyik" target="_blank">Вконтакте</a>
+        </li>
+        <li>
+            <a id="activatelink1" href="https://steamcommunity.com/id/Snappi4/" target="_blank">Steam</a>
+        </li>
+        </ul>
+        <!-- Описание -->
+
+    <!-- Хобби(Список) -->
+    <div class="card_1">
+        <h2>Мои Хобби</h2>
+        <ol>
+            <li>Ценить время</li>
+            <li>Любить выходные</li>
+            <li>Любить учить</li>
+        </ol>
+    </div>
+    <!-- Описание 2 (таблица) -->
+    <div class="card_2">
+        <table class="table">
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th> Категория</th>
+            </tr>
+            <tr>
+                <td>Владислав</td>
+                <td>Дёмкун</td>
+                <td>Ученик</td>
+            </tr>
+        </table>
+    </div>
+    <!-- Кнопки и окна ввода -->
+    <div class="message">
+    <form action="/" class="message">
+        <h3>Свзяь со мной</h3>
+    <div class="form-row">
+        <div class="form">
+            <label for="text">Ваше имя:</label>
+            <input type="text" placeholder="Введите имя">
+        </div>
+        <div class="form">
+            <label for="email">Ваш email:</label>
+            <input type="email" placeholder="Введите email">
+        </div>
+    </div>
+        <div class="form">
+            <label>Ваше Сообщение</label>
+            <textarea name="message" id="1" cols="30" rows="10" placeholder="Введите ваше сообщение..."></textarea>
+        </div>
+        <input class="btn" type="submit" value="Отправить!">
+     </form>
+</div>
+</body>
+</html>
